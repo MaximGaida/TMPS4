@@ -1,6 +1,6 @@
   
 
-  # Acest cod exemplifică modul în care putem utiliza aceste pattern-uri de design(Observer, Strategy, Command și Iterator) pentru a obține o arhitectură mai modulară, flexibilă și ușor de întreținut în aplicațiile noastre Swift.
+  # Acest cod exemplifică modul în care putem utiliza aceste **_Behavioral Design Patterns_**(Observer, Strategy, Command și Iterator) pentru a obține o arhitectură mai modulară, flexibilă și ușor de întreținut în aplicațiile noastre Swift.
   ### În cadrul pattern-ului Observer, avem protocolul Observer care definește o metodă "_update()_". Clasa "_Subject_" menține o listă de observatori și oferă metode pentru adăugarea, eliminarea și notificarea observatorilor atunci când se întâmplă o anumită acțiune. Clasa "_ConcreteObserver_" implementează protocolul și afișează un mesaj de notificare.
 #
   
